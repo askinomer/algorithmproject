@@ -92,7 +92,7 @@ void kitapgorunumu() {
     if (kitapsayi == 0) {
         printf("Kutuphanede kitap yok.\n");
     } else {
-        printf("Kitap kutuphanede bulunuyor.:\n"); //kitap  kutuphanede bulundugunda sırasiyla alt satırdakileri yazar.
+        printf("Kutuphanede kitap bulunuyor.:\n"); //kitap  kutuphanede bulundugunda sırasiyla alt satırdakileri yazar.
         printf("ID\tBaslik\tYazar\tYil\tSayfa Sayisi\n");
         for (int i = 0; i < kitapsayi; ++i) {
             printf("%d\t%s\t%s\t%d\t%d\n", kutuphane[i].id, kutuphane[i].baslik, kutuphane[i].yazar, kutuphane[i].yil, kutuphane[i].sayfa_sayisi);
