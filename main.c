@@ -23,7 +23,7 @@ printf("\n|-------------------------------|\n");
         if (scanf("%d", &tercih) != 1) { //scanf değeriyle bir tam sayı dışında bir değer alınırsa koşul ifadesi true olacagından alt satırdaki işlemler devreye girer.
             printf("Hatali giris! Lutfen sadece rakam kullaniniz.\n");
             scanf("%*s"); //burda kullanıcının girdigi veriyi temizlemek için *s kullandık çünkü veriyi okur ama atanacak yere kaydetmez.
-            continue; .
+            continue; 
         }
 
  switch (tercih) {
